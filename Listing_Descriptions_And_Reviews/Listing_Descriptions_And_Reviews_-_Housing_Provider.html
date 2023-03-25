@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Housing Reviews-User</title>
+
+  <!-- Basic CSS Styles for this Specific Page-->
+  <style>
+    html * {
+      font-family: 'Futura', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .navbar {
+      background-color: rgb(24, 216, 223);
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 5px;
+    }
+
+    .navbar a {
+      color: #fff;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .navbar-center {
+      display: flex;
+      justify-content: center;
+      flex-grow: 1;
+    }
+
+    .review {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<!--Navigation Bar Code-->
+<body>
+  <div class="navbar">
+    <div>
+      <!--href needs to be changed to housing listing- registered user html-->
+      <a href="#">Back</a>
+    </div>
+    <div class="navbar-center">
+      <!--href needs to be changed to messages html-->
+      <a href="#">Messages</a>
+    </div>
+    <div>
+      <!--href needs to be changed to LogIn or Home page html-->
+      <a href="#">Logout</a>
+    </div>
+  </div>
+</body>
+
+<!-- Left Side of Page -->
+<div style="float: left; width: 50%;">
+  <img src="house.jpg" alt="House Image" style="width: 70%;">
+  <div style="padding: 10px; font-size: 14px;">
+    <h3>Price: $299900</h3>
+    <h3>Type: House</h3>
+    <h3>Address: 1338 Fernwood Ct</h3>
+    <h3>Bedrooms: 3</h3>
+    <h3>Baths: 2</h3>
+    <p>Description: This is a house description.</p>
+  </div>
+</div>
+<!-- Right Side of Page -->
+<div style="float: right; width: 50%;">
+  <div style="padding: 10px;">
+  </div>
+  <div style="padding: 10px; margin-bottom: 10px;">
+    <h2>Reviews:</h2>
+    <div id="reviews-list">
+      <div class="review">
+        <h3>User: Jenna K.</h3>
+        <p>This house is amazing!</p>
+        <p style="font-size: 12px;">Rated 5 Stars</p>
+      </div>
+      <div class="review">
+        <h3>User: Matt C.</h3>
+        <p>This house is ok.</p>
+        <p style="font-size: 12px;">Rated 3 Stars</p>
+      </div>
+      <div class="review">
+        <h3>User: Steve G.</h3>
+        <p>This house stinks.</p>
+        <p style="font-size: 12px;">Rated 1 Stars</p>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>

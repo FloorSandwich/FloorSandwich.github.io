@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: x-large;
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('RentASpace.jpg');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center center;
+  min-height: 100vh;
+}
+
+.box {
+  background-color: #a3959c;
+  padding: 20px;
+  border-radius: 10px;
+}
+.loginBtn {
+  font-size: x-large;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 150px;
+}
+.signupBtn {
+  font-size: x-large;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-left: 125px;
+}
+.registerBtn{
+  margin-left: 50px;
+}
