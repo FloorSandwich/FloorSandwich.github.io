@@ -3,17 +3,19 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin: 70px;
 	padding: 0;
+    background-color: #ff4d4d;
 }
 
 h1, h2 {
 	font-weight: normal;
+    color: #fff;
 }
 
 form {
 	margin: 0 auto;
 	max-width: 500px;
 	padding: 20px;
-	background-color: #fff;
+	background-color: #003cb3;
 	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 	border-radius: 10px;
 }
@@ -22,7 +24,7 @@ input[type="submit"] {
 	display: block;
 	margin: 20px auto;
 	padding: 10px 20px;
-	background-color: #00c853;
+	background-color: #ff6600;
 	color: #fff;
 	border: none;
 	border-radius: 5px;
@@ -31,15 +33,17 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-	background-color: #008c33;
+	background-color: #e65c00;
 }
 
 /* Contact information */
-label[for="name"],
+label[for="firstname"],
+label[for="lastname"],
 label[for="email"],
 label[for="phone"] {
 	display: block;
 	margin-bottom: 10px;
+    color:#fff;
 }
 
 input[type="text"],
@@ -51,6 +55,7 @@ input[type="tel"] {
 	border-radius: 5px;
 	border: 1px solid #ccc;
 	font-size: 16px;
+    color:#fff;
 }
 
 /* Billing address */
@@ -63,6 +68,7 @@ label[for="country"] {
 	display: block;
 	margin-top: 20px;
 	margin-bottom: 10px;
+    color:#fff;
 }
 
 /* Credit/debit card information */
@@ -73,6 +79,7 @@ label[for="cvv"] {
 	display: block;
 	margin-top: 20px;
 	margin-bottom: 10px;
+    color:#fff;
 }
 
 input[type="month"],
@@ -96,6 +103,6 @@ input[type="text"][name="cardnumber"] {
 }
 
 input:focus {
-	border-color: #00c853;
-	box-shadow: 0 0 10px rgba(0, 200, 83, 0.5);
+	border-color: #ff6600;
+	box-shadow: 0 0 10px rgb(230, 92, 0);
 }
