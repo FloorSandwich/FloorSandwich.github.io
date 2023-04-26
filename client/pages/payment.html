@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Housing Payment Form</title>
+    <link rel="stylesheet" href="client\styles\payment.css">
+</head>
+<body>
+	<h1>Payment Information</h1>
+	<form method="post" action="process_payment.php">
+		<h2>Contact Information</h2>
+		<label for="firstname">First Name:</label>
+		<input type="text" name="firstname" id="firstname" required>
+		<br>
+        <label for="lastname">Last Name:</label>
+		<input type="text" name="lastname" id="lastname" required>
+		<br>
+		<label for="email">Email:</label>
+		<input type="email" name="email" id="email" required>
+		<br>
+		<label for="phone">Phone:</label>
+		<input type="tel" name="phone" id="phone" required>
+		<br>
+
+		<h2>Billing Address</h2>
+		<label for="address1">Address Line 1:</label>
+		<input type="text" name="address1" id="address1" required>
+		<br>
+		<label for="address2">Address Line 2:</label>
+		<input type="text" name="address2" id="address2">
+		<br>
+		<label for="city">City:</label>
+		<input type="text" name="city" id="city" required>
+		<br>
+		<label for="state">State/Province:</label>
+		<input type="text" name="state" id="state" required>
+		<br>
+		<label for="zip">Zip/Postal Code:</label>
+		<input type="text" name="zip" id="zip" required>
+		<br>
+		<label for="country">Country:</label>
+		<input type="text" name="country" id="country" required>
+		<br>
+
+		<h2>Credit/Debit Card Information</h2>
+		<label for="cardholder">Cardholder Name:</label>
+		<input type="text" name="cardholder" id="cardholder" required>
+		<br>
+		<label for="cardnumber">Card Number:</label>
+		<input type="text" name="cardnumber" id="cardnumber" required>
+		<br>
+		<label for="expiration">Expiration Date:</label>
+		<input type="month" name="expiration" id="expiration" required>
+		<br>
+		<label for="cvv">CVV:</label>
+		<input type="text" name="cvv" id="cvv" required>
+		<br>
+
+		<input type="submit" value="Make Payment">
+	</form>
+</body>
+</html>
