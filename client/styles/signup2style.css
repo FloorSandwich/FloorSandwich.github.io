@@ -59,7 +59,11 @@ form {
   padding-top: 63px;
   padding-left: 49px;
   padding-right: 50px; }
-
+h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 25px;
+  color: #f78582; }
 h3 {
   font-size: 35px;
   text-align: center;
