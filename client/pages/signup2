@@ -1,0 +1,60 @@
+<html><head>
+		<meta charset="utf-8">
+		<title>signup</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="">
+					<h3>Sign Up!</h3>
+					
+					
+					<div class="form-wrapper">
+						<label for="" class="label-input">Name</label>
+						<input type="text" class="form-control">
+					</div>
+					<div class="form-wrapper">
+						<label for="" class="label-input">Username</label>
+						<input type="text" class="form-control">
+					</div>
+					<div class="form-wrapper">
+						<label for="" class="label-input">Password</label>
+						<input type="text" class="form-control">
+					</div>
+					<div class="form-wrapper">
+						
+
+
+<label for="" class="label-comment">Account Type</label>
+						  <input type="radio" id="option1" name="option" value="Tenant">
+  <label for="age1">Tenant</label><br>
+  <input type="radio" id="age2" name="age" value="60">
+  <label for="age2">Housing Provider</label><br>  
+  
+  <br><br>
+  
+  
+					</div>
+
+					<button>Send Register Request</button>
+				</form>
+				<div class="image-holder">
+					<img src="images/registration-form-5.jpg" alt="">
+				</div>
+			</div>
+		</div>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/main.js"></script>
+	
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) --></html>
