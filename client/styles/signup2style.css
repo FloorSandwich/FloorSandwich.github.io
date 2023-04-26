@@ -45,8 +45,8 @@ textarea {
   display: flex; }
 
 .image-holder {
-  width: 50%;
-  max-height: 550px; }
+  max-width: 570px;
+  max-height: 393px; }
 
 .option {
   color: #999;
