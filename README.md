@@ -1,6 +1,1 @@
-# housing
-<<<<<<< HEAD
-=======
-
-#TEST
->>>>>>> 03a76c4f5cd95185edfb14fac904904599b5fbb3
+The goal of Residence Relief is to provide people with an easy way to view housing options and communicate with Housing Providers. Clients can create an account as a Housing Provider to list their housing as a potential Rental option. Or clients can create an account as a potential Tenant to view current listings and communicate with housing providers to create an agreement. 
