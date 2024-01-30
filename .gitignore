@@ -1,6 +1,0 @@
-/housing-website-v3/server/.env
-.env
-node_modules
-.hintrc
-.idea
-.DS_STORE
